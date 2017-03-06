@@ -14,6 +14,7 @@
 		FEAE0B681E6D606C00CE3832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEAE0B671E6D606C00CE3832 /* Assets.xcassets */; };
 		FEAE0B6B1E6D606C00CE3832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEAE0B691E6D606C00CE3832 /* LaunchScreen.storyboard */; };
 		FEAE0B731E6D6FA300CE3832 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE0B721E6D6FA300CE3832 /* RegisterPageViewController.swift */; };
+		FEAE0B751E6D76CB00CE3832 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE0B741E6D76CB00CE3832 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FEAE0B6A1E6D606C00CE3832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEAE0B6C1E6D606C00CE3832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEAE0B721E6D6FA300CE3832 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		FEAE0B741E6D76CB00CE3832 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				FEAE0B6C1E6D606C00CE3832 /* Info.plist */,
 				FEAE0B641E6D606C00CE3832 /* MyProject.xcdatamodeld */,
 				FEAE0B721E6D6FA300CE3832 /* RegisterPageViewController.swift */,
+				FEAE0B741E6D76CB00CE3832 /* LoginViewController.swift */,
 			);
 			path = MyProject;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				FEAE0B731E6D6FA300CE3832 /* RegisterPageViewController.swift in Sources */,
 				FEAE0B601E6D606C00CE3832 /* ViewController.swift in Sources */,
 				FEAE0B661E6D606C00CE3832 /* MyProject.xcdatamodeld in Sources */,
+				FEAE0B751E6D76CB00CE3832 /* LoginViewController.swift in Sources */,
 				FEAE0B5E1E6D606C00CE3832 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +311,7 @@
 				FEAE0B711E6D606C00CE3832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

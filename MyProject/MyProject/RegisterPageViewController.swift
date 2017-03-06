@@ -34,14 +34,64 @@ class RegisterPageViewController: UIViewController {
         
         let userLogin = userLoginTextField.text
         let userPassword = userPasswordTextField.text
-        let repeatPssword = repeatPasswordTextField.text
+        let repeatPassword = repeatPasswordTextField.text
         
+        // check for empty fields
         
+        if (userLogin == "" || userPassword == "" || repeatPassword == "")  {
+            
+            displayMyAlertMessage(userMessage: "Все поля должны быть заполнены")
+            return
+        }
         
+        //Store date
+        
+        //display alert message with conformation
+        if repeatPassword != userPassword {
+            displayMyAlertMessage(userMessage: "Не совпадают пароли")
+            return
+        }
+        
+        UserDefaults.standard.set(userLogin, forKey: "userLogin")
+        UserDefaults.standard.set(userPassword, forKey: "userPassword")
+        UserDefaults.standard.synchronize()
+        
+        let  myAlert = UIAlertController(title: "Внимание", message: "Регистрация прошла успешно. Спасибо", preferredStyle: UIAlertControllerStyle.alert)
+        
+        let okAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default) {
+            action in
+            self.dismiss(animated: true, completion: nil)
+            
+        }
+        
+        myAlert.addAction(okAction)
+        self.present(myAlert, animated: true, completion: nil)
+    }
+    
+    
+    func displayMyAlertMessage(userMessage: String){
+        
+        let myAlert = UIAlertController(title: "Внимание", message: userMessage, preferredStyle: UIAlertControllerStyle.alert)
+        let okAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil)
+        
+        myAlert.addAction(okAction)
+        self.present(myAlert, animated: true, completion: nil)
+    }
+    
+    /*
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
         
         
         
     }
 
    
-}
+
