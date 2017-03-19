@@ -14,11 +14,22 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var userLoginTextField: UITextField!
     
     @IBOutlet weak var userPasswordTextField: UITextField!
+    
+    
+    @IBOutlet weak var loginButton: UIButton!
 
+    @IBOutlet weak var registerButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+                loginButton.layer.borderColor = UIColor.red.cgColor
+                loginButton.layer.borderWidth = 1.0
+                loginButton.layer.cornerRadius = 7
+ 
+                registerButton.layer.borderColor = UIColor.red.cgColor
+                registerButton.layer.borderWidth = 1.0
+                registerButton.layer.cornerRadius = 7
+    
     }
 
     override func didReceiveMemoryWarning() {
@@ -44,8 +55,19 @@ class LoginViewController: UIViewController {
             self.dismiss(animated: true, completion: nil)
             
             
+        }else {
+        loginPsswordAlertMessage(userMessage: "Не совпадает пароль или логин")
         }
         
+    }
+
+    func loginPsswordAlertMessage(userMessage: String){
+        
+        let myAlert = UIAlertController(title: "Внимание", message: userMessage, preferredStyle: UIAlertControllerStyle.alert)
+        let okAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil)
+        
+        myAlert.addAction(okAction)
+        self.present(myAlert, animated: true, completion: nil)
     }
 
     /*

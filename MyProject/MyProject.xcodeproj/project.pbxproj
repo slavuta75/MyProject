@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FE470EE21E7187EB00D33EEB /* PassengerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE470EE11E7187EB00D33EEB /* PassengerTableViewController.swift */; };
-		FE470EE61E71AC3F00D33EEB /* For PassengerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE470EE51E71AC3F00D33EEB /* For PassengerTableViewController.swift */; };
+		FE48B97F1E7EF0C700B692CD /* DriverInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE48B97E1E7EF0C700B692CD /* DriverInformationViewController.swift */; };
+		FE9D88FD1E7D915B006AB22B /* FinalQuiryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9D88FC1E7D915B006AB22B /* FinalQuiryViewController.swift */; };
 		FEAE0B5E1E6D606C00CE3832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE0B5D1E6D606C00CE3832 /* AppDelegate.swift */; };
 		FEAE0B601E6D606C00CE3832 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE0B5F1E6D606C00CE3832 /* ViewController.swift */; };
 		FEAE0B631E6D606C00CE3832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEAE0B611E6D606C00CE3832 /* Main.storyboard */; };
@@ -22,7 +23,8 @@
 
 /* Begin PBXFileReference section */
 		FE470EE11E7187EB00D33EEB /* PassengerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PassengerTableViewController.swift; path = ../PassengerTableViewController.swift; sourceTree = "<group>"; };
-		FE470EE51E71AC3F00D33EEB /* For PassengerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "For PassengerTableViewController.swift"; path = "../For PassengerTableViewController.swift"; sourceTree = "<group>"; };
+		FE48B97E1E7EF0C700B692CD /* DriverInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverInformationViewController.swift; sourceTree = "<group>"; };
+		FE9D88FC1E7D915B006AB22B /* FinalQuiryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalQuiryViewController.swift; sourceTree = "<group>"; };
 		FEAE0B5A1E6D606C00CE3832 /* MyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEAE0B5D1E6D606C00CE3832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEAE0B5F1E6D606C00CE3832 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,10 +69,11 @@
 			isa = PBXGroup;
 			children = (
 				FEAE0B5D1E6D606C00CE3832 /* AppDelegate.swift */,
-				FE470EE51E71AC3F00D33EEB /* For PassengerTableViewController.swift */,
 				FE470EE11E7187EB00D33EEB /* PassengerTableViewController.swift */,
+				FE9D88FC1E7D915B006AB22B /* FinalQuiryViewController.swift */,
 				FEAE0B5F1E6D606C00CE3832 /* ViewController.swift */,
 				FEAE0B611E6D606C00CE3832 /* Main.storyboard */,
+				FE48B97E1E7EF0C700B692CD /* DriverInformationViewController.swift */,
 				FEAE0B671E6D606C00CE3832 /* Assets.xcassets */,
 				FECA8FB91E72D1CE00698B86 /* InformationViewController.swift */,
 				FEAE0B691E6D606C00CE3832 /* LaunchScreen.storyboard */,
@@ -155,10 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEAE0B731E6D6FA300CE3832 /* RegisterPageViewController.swift in Sources */,
+				FE48B97F1E7EF0C700B692CD /* DriverInformationViewController.swift in Sources */,
 				FEAE0B601E6D606C00CE3832 /* ViewController.swift in Sources */,
 				FEAE0B661E6D606C00CE3832 /* MyProject.xcdatamodeld in Sources */,
 				FEAE0B751E6D76CB00CE3832 /* LoginViewController.swift in Sources */,
-				FE470EE61E71AC3F00D33EEB /* For PassengerTableViewController.swift in Sources */,
+				FE9D88FD1E7D915B006AB22B /* FinalQuiryViewController.swift in Sources */,
 				FE470EE21E7187EB00D33EEB /* PassengerTableViewController.swift in Sources */,
 				FEAE0B5E1E6D606C00CE3832 /* AppDelegate.swift in Sources */,
 				FECA8FBA1E72D1CE00698B86 /* InformationViewController.swift in Sources */,

@@ -17,10 +17,21 @@ class RegisterPageViewController: UIViewController {
     @IBOutlet weak var repeatPasswordTextField: UITextField!
     
     
+    @IBOutlet weak var registerBotton: UIButton!
     
+    @IBOutlet weak var iHaveRegisterButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        registerBotton.layer.borderColor = UIColor.yellow.cgColor
+        registerBotton.layer.borderWidth = 1.0
+        registerBotton.layer.cornerRadius = 9
+        
+        iHaveRegisterButton.layer.borderColor = UIColor.blue
+            .cgColor
+        iHaveRegisterButton.layer.borderWidth = 1.0
+        iHaveRegisterButton.layer.cornerRadius = 9
 
         // Do any additional setup after loading the view.
     }
